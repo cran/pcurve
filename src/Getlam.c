@@ -7,7 +7,7 @@ void pcsort();
 
 void getlam(nn,pp,x,sx,latent,lambda,order,dist,nns,s,strech,unilam,vecx,tempsx)
 
-long *nn, *pp, *nns, *latent, *order;
+int *nn, *pp, *nns, *latent, *order;
 double *x, *sx, *s, *lambda, *dist, *tempsx, *vecx, *strech, *unilam;
 
 /*
@@ -66,8 +66,7 @@ for (i=0;i<n;i++) order[i]=order[i]+1;
 
 void newlam(n,p,sx,lambda,tag)
 
-int n, p;
-long *tag;
+int n, p, *tag;
 double *sx, *lambda;
 
 {
@@ -151,10 +150,10 @@ distmin[pos]=dismin;
 
 void pcsort(a, p, n)
 double *a;
-long *p;
+int *p;
 int n;
 {
-long i,j,v;
+int i,j,v;
 for(i=0; i<n; i++) p[i]=i;
 for(i=1; i<n; i++)
 {
