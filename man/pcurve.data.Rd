@@ -61,7 +61,7 @@ De'ath, G. 1999 Principal Curves: a new technique for indirect and direct gradie
 Gittins, R. 1985 \emph{Canonical Analysis.  A review with applications in ecology.}  Berlin: Springer-Verlag.
 }
 \author{
-  R port by Chris Walsh \email{Chris.Walsh@sci.monash.edu.au} from S+
+  R port by Chris Walsh \email{cwalsh@unimelb.edu.au} from S+
   library by Glenn De'ath \email{g.death@aims.gov.au}.
 }
 \keyword{datasets}

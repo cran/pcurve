@@ -58,9 +58,9 @@ row.chk0 = FALSE, col.chk0 = TRUE, use.loc = FALSE)
 
   \item{min.df}{specifies the min df for the smoothing.}
 
-  \item{max.df}{specifies the max df for the smoothing.}
+  \item{max.df}{specifies the max df for smoothing during cross-validation.}
 
-  \item{max.df.cv.fit}{}
+  \item{max.df.cv.fit}{specifies the max df for the smoothing.}
   
   \item{ext.dist}{if TRUE extended dissimilarities in calculation of
     initial configuration using the flexible shortest path. If FALSE
@@ -143,7 +143,7 @@ Hastie, T.J and Tibshirani, R.J. 1990 \emph{Generalized additive models.} London
 Hastie, T.J. and Stuetzle, W. 1989 Principal Curves. \emph{Journal of the American Statistical Association} \bold{84}, 502--516.
 }
 \author{
-R port by Chris Walsh \email{Chris.Walsh@sci.monash.edu.au} from S+ library by Glenn De'ath \email{g.death@aims.gov.au}. Original S code for principal curve analysis by Trevor Hastie \email{hastie@stat.stanford.edu}.
+R port by Chris Walsh \email{cwalsh@unimelb.edu.au} from S+ library by Glenn De'ath \email{g.death@aims.gov.au}. Original S code for principal curve analysis by Trevor Hastie \email{hastie@stat.stanford.edu}.
 }
 \seealso{\code{\link{pcdiags.plt}}, \code{\link[vegan]{vegdist}},  \code{\link[vegan]{stepacross}}}
 \examples{

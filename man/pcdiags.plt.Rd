@@ -88,7 +88,7 @@ along the PC and explanatory variables (using the internal function \code{pcenv.
 \references{ 
 De'ath, G. 1999 Principal Curves: a new technique for indirect and direct gradient analysis. \emph{Ecology} \bold{80}, 2237--2253.
 }
-\author{R port by Chris Walsh \email{Chris.Walsh@sci.monash.edu.au} from S+
+\author{R port by Chris Walsh \email{cwalsh@unimelb.edu.au} from S+
 library by Glenn De'ath \email{g.death@aims.gov.au}.
 }
 \keyword{hplot}

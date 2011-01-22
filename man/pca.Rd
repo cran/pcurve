@@ -26,7 +26,7 @@ pca(mat, cent = TRUE, scle = FALSE)
   \item{v}{a matrix of eigenvectors}
 }
 \author{
-  R port by Chris Walsh \email{Chris.Walsh@sci.monash.edu.au} from S+
+  R port by Chris Walsh \email{cwalsh@unimelb.edu.au} from S+
   library by Glenn De'ath \email{g.death@aims.gov.au}.
 }
 \examples{

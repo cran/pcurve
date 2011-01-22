@@ -1,4 +1,5 @@
 #require(mva) for dist (from R 1.9 part of stats) (see zzz.R)
+#require (vegan) for spantree
 
 "startPC"<-
 function(x, ext.dist = TRUE, dc = 0.9, rank = FALSE, type = "pca", metric = "bray", 
@@ -69,12 +70,12 @@ function(x, ext.dist = TRUE, dc = 0.9, rank = FALSE, type = "pca", metric = "bra
 	else if(type == "mst.bc") {
 		if(verb)
 			cat("MST.BC\n")
-		lambda <- mstree(mdsform(x[, 1:p], scale = TRUE))$order[, 1]
+		lambda <- spantree(mdsform(x[, 1:p], scale = TRUE))[, 1]
 	}
 	else if(type == "mst") {
 		if(verb)
 			cat("MST\n")
-		lambda <- mstree(x[, 1:p])$order[, 1]
+		lambda <- spantree(x[, 1:p])[, 1]
 	}
 	else if(type == "ran") {
 		if(verb)
