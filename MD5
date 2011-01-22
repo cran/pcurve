@@ -1,6 +1,5 @@
-2cb10bad2effc7655a06c142bf6af83e *DESCRIPTION
-244ab222f46e472a5b26b12867478107 *INDEX
-014465f355f90999350a598aaedfa576 *NAMESPACE
+faced239feb69e9463b019849c147df2 *DESCRIPTION
+beb6f62df73cb207f9f4e2fb97f63c3d *NAMESPACE
 17d24f0a0734bb99dd5be1ce9c286720 *R/cavecs.R
 fd2649c214cb18c823f5c30095f34fdd *R/finder.R
 342bda4eac0c4df609e1d05465de4ebc *R/gdsqform.R
@@ -24,11 +23,11 @@ d8998aef37162297f4daa7f39780f155 *R/pcresp.plt.R
 0ffdd2c098ec0a652154632f2c3fcb62 *R/print.gd.R
 01c369d0408379bfe4df700fed3bb43b *R/scaleto1.R
 acab1b1a0a62cc126571fbb21b7ddb2c *R/startPC.R
-3269e879ff8dc309f9f6e4569cc0f802 *R/zzz.R
-2d9498f23772793426da8badf8182905 *data/fish.txt
-b2b27d40beaba21c5137db64b60312f5 *data/sim10var.txt
-b2b421fdeaf98bb985f3236c1507b789 *data/sim4var.txt
-1a04dde2d2cd5c634e1de9c5e41e0a14 *data/soilspec.txt
+13d43187c53bb43b2945dd1799de93a9 *data/fish.txt.gz
+01672f11c78134033bfaf6fc203ffd0e *data/sim10var.txt.gz
+fda1beb6c92acc9f12810e80cfc94ca0 *data/sim4var.txt.gz
+376f1780f130eca2acbe69edd4464101 *data/soilspec.txt.gz
+8eb19f25b2208f0e66586404b5e37241 *inst/ChangeLog
 883b81c362026c529ec9d623ca2b8c38 *man/pca.Rd
 a3f19d76af2ccbfe3f0619c9a0a9eb03 *man/pcdiags.plt.Rd
 da8cb9e94ae8a8cf8f5c09786211551b *man/pcurve.Rd

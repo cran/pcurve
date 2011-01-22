@@ -1,0 +1,8 @@
+Package pcurve Change Log
+
+Version 0.6-4
+
+	* pcurve has a new maintainer: Gavin Simpson
+
+	* C code now loaded through NAMESPACE; .first.lib() no longer
+	used.

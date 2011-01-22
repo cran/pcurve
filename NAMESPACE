@@ -1,5 +1,5 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
+## compiled code
+useDynLib(pcurve)
 
 # Export all names
 exportPattern(".")
